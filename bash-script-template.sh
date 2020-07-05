@@ -11,6 +11,8 @@ errFile=$path/logging-errors.txt
 cd $path
 nohup /SAS-EXE-FILE -noterminal -memsize 4g sas-test.sas -log /LOGPATH/sas-logging.log -print /OUTPUTPATH/sas-output.lst
 nohup /PYTHON-EXE-FILE python-test.py >> /LOGPATH/python-logging.log 
+sqlplus -s USERNAME/PASSWORD@DB @sql-template.sql
+
 
 echo "Analytical Process END"
 
