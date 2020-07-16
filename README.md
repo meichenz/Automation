@@ -2,7 +2,7 @@
 
 Hi there,
 
-This is a repository that provides useful bash and python scrips to automate analytical ETL processes written in SAS, SQL and schedule using cron tasks in Unix system.
+This is a repository that provides useful bash and python scrips to streamline analytical ETL processes written in SAS, SQL and schedule automated cron tasks in Unix system.
 
 Table of Contents 
 * Schedule setup - **cronjob-setup.sh**
@@ -12,7 +12,6 @@ Table of Contents
   
 * Log scanner - **logscan-email.py**
   - We want to scan the log files to check if there exists any errors after the ETL process is completed. The errors will be written into an error file to enable easy check of what went wrong.
-  - The scanner is written in Python. Please refer to . 
 
 * Email notifications - **logscan-email.py**
   - Eventually, we want to send out an email notification once the scan finishes. 
