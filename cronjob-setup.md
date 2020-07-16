@@ -3,6 +3,7 @@ To set up a cron job, type '**cronjob -e**' in the terminal.
 When the vi file pops open, type '**i**' to enter a script for scheduling.
 
 Example: **00 00 01 01 * ./test-script.sh**
+
 Template : MIN HOUR DOM MON DOW CMD
 
 The description of numbers are below : 
